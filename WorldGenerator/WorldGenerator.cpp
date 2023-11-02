@@ -1,6 +1,5 @@
 // WorldGenerator.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-#include <stdlib>
 #include <iostream>
 #include "Person.h"
 using namespace std;
@@ -8,7 +7,8 @@ using namespace std;
 int main()
 {
     std::cout << "Hello World!\n";
-
+    Person dave = Person();
+    dave.printPerson();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

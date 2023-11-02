@@ -1,15 +1,15 @@
 #pragma once
 #include <iostream>
 #include <string>
+//using namespace std;
 
 class Person
 {
 	public:
-		string name;
-		string gender;
+		std::string name;
+		std::string gender;
 		int age;
 		Person();
 		void printPerson();
-
 };
 

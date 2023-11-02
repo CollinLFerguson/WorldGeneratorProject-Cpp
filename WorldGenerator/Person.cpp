@@ -1,9 +1,7 @@
 #include "Person.h"
-#include <iostream>
 #include <string>
+#include <iostream>
 
-class Person::Person
-{
 	//Race race;
 	//Culture culture;
 	//Religion religion;
@@ -11,11 +9,6 @@ class Person::Person
 	//Town home;
 
 	// UNIQUE TO A PERSON // 
-public:
-	string name;
-	string gender;
-	int age;
-
 	Person::Person()
 	{
 		name = "dave";
@@ -27,4 +20,3 @@ public:
 	{
 		std::cout << "my name is " << name << ", I am " << age << " and I am a " << gender << ".\n";
 	}
-};
